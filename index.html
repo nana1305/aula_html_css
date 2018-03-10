@@ -39,11 +39,17 @@
                 </div>
             </article>
         </section>
+        <form onsubmit="submitValue()">
+            <input type="email" name="email"/>
+            <button>Enviar</button>
+        </form>
     </div>
     <script>
     function openHelloWorld(){
         document.getElementById('teste').innerHTML = "Hello World";
-
+    }
+    function submitValue (){
+        alert('Os dados foram enviados');
     }
     </script>
 </body>
