@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+.side-menu{
+    width: 60px;
+    background-color: #f368e0;
+    height: 100vH;
+    width: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+.content-menu{
+    text-align: center;
+    padding-top: 15px;
+    cursor: pointer;
+    font-family: Arial;
+  
+
+}
+.item-menu{
+    font-family: 'Rammetto One', cursive;
+}
+
+.item-menu:hover{
+color: black;
+font-size: 20px;
+
+
+}
+.content-main{
+    display: flex;
+}
+.content-sport{
+    width: 50%;
+    margin: 20px;
+    font-family: 'Rammetto One', cursive;
+    
+}
+#btn-images {
+    background-color: aqua;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: tomato;
+    margin-top: 10px;
+    
+}
